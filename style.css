@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 1224px;
+	margin: 0 auto;
+}
+h1, h2 {
+	text-align: center;
+	font-family: 'Poiret One', sans-serif;
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+/*=====Раздел header=====*/
+
+/*=====Подраздел header-top=====*/
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #80ae92;
+}
+.logo {
+	padding-left: 10px;
+		align-content: center;
+		width: 300px;
+		height: 300px;
+}
+.header-contacts {
+	padding-right: 10px;
+}
+
+/*=====Подраздел promo=====*/
+.promo {
+	/*padding-top: 200px;
+	padding-bottom: 200px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+	background-color:#6b66a9;
+	color: white;
+}
+.promo h1 {
+	font-size: 3rem;
+	font-weight: 600;
+	padding-bottom: 40px;
+}
+.promo p {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+}
+/*=====Навигация nav=====*/
+nav {
+	position: sticky;
+	top: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #80ae92;
+}
+nav ul {
+	display: flex;
+	max-width: 980px;
+	margin: 0 auto;
+	list-style: none;
+	justify-content: space-around;
+}
+nav li {
+
+}
+
+/*=====Раздел main=====*/
+
+/*=====Подраздел about=====*/
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.about-wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+.about-title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.about-wrap p {
+	padding: 20px 30px;
+	font-size: 1.2rem;
+	line-height: 2.0;
+}
+/*=====Подраздел activities=====*/
+.activities {
+	background-color: #6b66a9;
+}
+.activities-title {
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.activities-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 100px;
+}
+.activities-item {
+	box-sizing: border-box;
+	width: 30%;
+	padding: 30px;
+	color: #ddddff;
+	font-size: 1.1rem;
+}
+.activities-image {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+/*=====Подраздел invitation=====*/
+
+/*=====Раздел events=====*/
+
+/*=====Раздел education=====*/
+
+/*=====Раздел training=====*/
+.training-item{
+	display: flex;
+	justify-content: center;
+	border: 10px solid ;
+	border-radius: 15px;
+	padding: 10px;
+	border-color: #6b66a9;
+	text-align: center;
+
+}
+.training-item-title{
+	
+	text-align: center;
+	font-size: 20px;
+	font-family:  sans-serif;
+
+}
+
+/*=====Раздел target=====*/
+
+/*=====Раздел footer=====*/
+footer {
+	background-color: #80ae92;
+}
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: ;
+}
+/* https://colorscheme.ru/#0032Heejdw0w0 */
+.menu {
+	display:flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 35px;
+     font-size: 20px;
+    line-height: 17px;
+ 	font-weight: bold;
+    color: #000;
+    vertical-align: middle;
+    padding: 0 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poiret One', sans-serif;
+
+
+}
+.menu:hover {
+    color: black; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+
+}
+.cof{
+	width: 275px;
+	height: 183px;
+	
+}
+.training-item-photo{
+	padding-right: 80px;
+
+}
+.btn{
+	margin-top: 10px;
+	color: black;
+	width: 100px;
+	height: 50px;
+	font-family: 'Poiret One', sans-serif;
+    display: inline-block;
+    width: 15em;
+    font-size: 110%;
+    font-weight: 100%;	
+    color: rgba(255,255,255,.9);
+	text-shadow: #2e7ebd 0 1px 2px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.1;
+	white-space: pre-line;
+	padding: .7em 0;
+	border: 1px solid;
+	border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+	border-radius: 6px;
+	outline: none;
+	background: #60a3d8 linear-gradient(#80ae92, #6b66a9 50%, #80ae92);
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+	background-color: #80ae92;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	}
+	.btn:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#6b66a9, #80ae92 65%, #E0FFFF);
+}
+  .btn1{
+	margin-top: 10px;
+	color: black;
+	width: 100px;
+	margin-bottom: 90px;
+	height: 70px;
+	font-family: 'Poiret One', sans-serif;
+    display: inline-block;
+    width: 15em;
+    font-size: 110%;
+    font-weight: 100%;	
+    color: rgba(255,255,255,.9);
+	text-shadow: #2e7ebd 0 1px 2px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.1;
+	white-space: pre-line;
+	padding: .7em 0;
+	border: 1px solid;
+	border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+	border-radius: 6px;
+	outline: none;
+	background: #60a3d8 linear-gradient(#80ae92, #6b66a9 50%, #80ae92);
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+	background-color: #80ae92;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	}
+	.btn1:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#6b66a9, #80ae92 65%, #E0FFFF);
